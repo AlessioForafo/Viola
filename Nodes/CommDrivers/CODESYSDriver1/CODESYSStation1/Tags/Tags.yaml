@@ -1,0 +1,469 @@
+Name: Tags
+Type: BaseObjectType
+Children:
+- Name: Application
+  Type: TagStructure
+  Children:
+  - Name: PLC_PRG
+    Type: TagStructure
+    Children:
+    - Name: ArrayBidimensionale
+      Type: CODESYSTag
+      DataType: Int16
+      ValueRank: 2
+      ArrayDimensions: [2,10]
+      Value: 
+       {
+        "Type": 4,
+        "Dimensions": [2,10],
+        "Body": [
+         0,0,0,0,0,0,0,0,0,0,
+         0,0,0,0,0,0,0,0,0,0
+        ]
+       }
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.ArrayBidimensionale"
+      - Name: StartArrayIndex
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [0,0]
+    - Name: bStart
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.bStart"
+    - Name: incrementa
+      Type: CODESYSTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.incrementa"
+    - Name: Motori
+      Type: TagStructureArray
+      Children:
+      - Name: ArrayDimensions
+        Type: PropertyType
+        DataType: UInt32
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [10]
+      - Name: 0
+        Type: TagStructure
+        Children:
+        - Name: enable
+          Type: CODESYSTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[0].enable"
+        - Name: nome
+          Type: CODESYSTag
+          DataType: String
+          Value: ""
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[0].nome"
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+            Value: 0
+        - Name: speed
+          Type: CODESYSTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[0].speed"
+      - Name: 1
+        Id: g=94c0f8b4ca732f092a56a5c2b80c34f0
+        Type: TagStructure
+        Children:
+        - Name: enable
+          Type: CODESYSTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[1].enable"
+        - Name: nome
+          Type: CODESYSTag
+          DataType: String
+          Value: ""
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[1].nome"
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+            Value: 0
+        - Name: speed
+          Type: CODESYSTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[1].speed"
+      - Name: 2
+        Type: TagStructure
+        Children:
+        - Name: enable
+          Type: CODESYSTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[2].enable"
+        - Name: nome
+          Type: CODESYSTag
+          DataType: String
+          Value: ""
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[2].nome"
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+            Value: 0
+        - Name: speed
+          Type: CODESYSTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[2].speed"
+      - Name: 3
+        Type: TagStructure
+        Children:
+        - Name: enable
+          Type: CODESYSTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[3].enable"
+        - Name: nome
+          Type: CODESYSTag
+          DataType: String
+          Value: ""
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[3].nome"
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+            Value: 0
+        - Name: speed
+          Type: CODESYSTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[3].speed"
+      - Name: 4
+        Type: TagStructure
+        Children:
+        - Name: enable
+          Type: CODESYSTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[4].enable"
+        - Name: nome
+          Type: CODESYSTag
+          DataType: String
+          Value: ""
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[4].nome"
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+            Value: 0
+        - Name: speed
+          Type: CODESYSTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[4].speed"
+      - Name: 5
+        Type: TagStructure
+        Children:
+        - Name: enable
+          Type: CODESYSTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[5].enable"
+        - Name: nome
+          Type: CODESYSTag
+          DataType: String
+          Value: ""
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[5].nome"
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+            Value: 0
+        - Name: speed
+          Type: CODESYSTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[5].speed"
+      - Name: 6
+        Type: TagStructure
+        Children:
+        - Name: enable
+          Type: CODESYSTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[6].enable"
+        - Name: nome
+          Type: CODESYSTag
+          DataType: String
+          Value: ""
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[6].nome"
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+            Value: 0
+        - Name: speed
+          Type: CODESYSTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[6].speed"
+      - Name: 7
+        Type: TagStructure
+        Children:
+        - Name: enable
+          Type: CODESYSTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[7].enable"
+        - Name: nome
+          Type: CODESYSTag
+          DataType: String
+          Value: ""
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[7].nome"
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+            Value: 0
+        - Name: speed
+          Type: CODESYSTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[7].speed"
+      - Name: 8
+        Type: TagStructure
+        Children:
+        - Name: enable
+          Type: CODESYSTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[8].enable"
+        - Name: nome
+          Type: CODESYSTag
+          DataType: String
+          Value: ""
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[8].nome"
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+            Value: 0
+        - Name: speed
+          Type: CODESYSTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[8].speed"
+      - Name: 9
+        Type: TagStructure
+        Children:
+        - Name: enable
+          Type: CODESYSTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[9].enable"
+        - Name: nome
+          Type: CODESYSTag
+          DataType: String
+          Value: ""
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[9].nome"
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+            Value: 0
+        - Name: speed
+          Type: CODESYSTag
+          DataType: Int16
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.Motori[9].speed"
+    - Name: VAR1
+      Type: CODESYSTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.VAR1"
+    - Name: VAR2
+      Type: CODESYSTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.VAR2"
+    - Name: VAR3
+      Type: CODESYSTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.VAR3"

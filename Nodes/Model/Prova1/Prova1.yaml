@@ -1,0 +1,16 @@
+Name: Prova1
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=ff7ffea4437bb1dab3c1397fd46efdde
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable3
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
